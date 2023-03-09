@@ -1,4 +1,4 @@
-import { ItemCustom } from "./"
+import { ItemCustom } from "."
 
 interface Props {
     title: string;
