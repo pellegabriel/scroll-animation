@@ -4,7 +4,7 @@ interface PropsButtonsCheckBox {
 }
 export const ItemCheckBox = ({ checkboxes, handleChange }: PropsButtonsCheckBox) => {
     return (
-        <div className="item-opt">
+        <div className="Item-opt">
             <h4 className="title-opt">Buttons to controls</h4>
             <div className="container-inputs w-100">
                 {

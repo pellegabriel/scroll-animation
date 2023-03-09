@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
+  align-Items: center;
   
 }
 
@@ -30,7 +30,7 @@ input[type="radio"] {
   gap: 3rem;
   padding: 0 2rem;
   flex-direction: column;
-  align-items: center;
+  align-Items: center;
 }
 
 .container-opt {
@@ -59,40 +59,40 @@ input[type="radio"] {
   margin: auto;
 }
 
-.container-opt .item-opt {
+.container-opt .Item-opt {
   background-color: rgb(215, 121, 168);
   padding: 15px;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-Items: center;
   flex-wrap: wrap;
   gap: 1em;
 }
 
-.container-opt .item-opt .title-opt {
+.container-opt .Item-opt .title-opt {
   font-weight: bold;
   font-size: 1.3rem;
 
 }
 
-.container-opt .item-opt .container-inputs {
+.container-opt .Item-opt .container-inputs {
   display: flex;
   gap: 1rem;
   justify-content: flex-end;
   
-  align-items: center;
+  align-Items: center;
   flex-wrap: wrap;
 }
 .w-100{
   width: 100%;
 }
 
-.container-opt .item-opt .container-inputs .control {
+.container-opt .Item-opt .container-inputs .control {
   text-align: center;
 }
 
-.item-opt .container-inputs .control>label {
+.Item-opt .container-inputs .control>label {
   display: block;
   width: 100%;
   cursor: pointer;
@@ -107,7 +107,7 @@ input[type="radio"]~label:hover {
   background-color: rgb(156, 2, 2);
 }
 
-.item-opt .container-inputs .control>label::selection {
+.Item-opt .container-inputs .control>label::selection {
   background: transparent;
 }
 

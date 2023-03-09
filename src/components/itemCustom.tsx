@@ -5,7 +5,7 @@ interface Props {
 
 export const ItemCustom = ({ children, title }: Props) => {
     return (
-        <div className="item-opt">
+        <div className="Item-opt">
             <h4 className="title-opt">{title}</h4>
             <div className="container-inputs">
                 {children}
