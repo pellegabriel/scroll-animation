@@ -7,7 +7,23 @@
     <title>Vite + React + TS</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+
+    </div>
+
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      LottieInteractivity.create({
+        mode: 'scroll',
+        player: '#firstLottie',
+        actions: [
+            {
+              visibility: [0,1],
+              type: 'seek',
+              frames: [0, 121],
+            },
+          ],
+      });
+      </script>
   </body>
 </html>
