@@ -1,4 +1,4 @@
 export {PlayerLottie} from './PlayerLottie'
-export * from './ItemCheckBox'
-export * from './ItemCustom'
-export * from './ItemRadio'
+export {ItemCheckBox} from './ItemCheckBox'
+export {ItemCustom} from './ItemCustom'
+export {ItemRadio} from './ItemRadio'
