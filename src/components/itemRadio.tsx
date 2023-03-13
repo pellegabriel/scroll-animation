@@ -5,7 +5,7 @@ interface Props {
     handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void
     name:string;
 } 
-export const ItemRadio = ({ title, handleChange, name }:Props) => {
+const ItemRadio = ({ title, handleChange, name }:Props) => {
   return (
     <ItemCustom title={title} >
         <label className="switch">
@@ -15,3 +15,5 @@ export const ItemRadio = ({ title, handleChange, name }:Props) => {
     </ItemCustom>
   )
 }
+
+export default ItemRadio
