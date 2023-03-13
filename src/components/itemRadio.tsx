@@ -1,11 +1,11 @@
-import  ItemCustom  from "./ItemCustom"
+import { ItemCustom } from "."
 
 interface Props {
     title: string;
     handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void
     name:string;
 } 
-const ItemRadio = ({ title, handleChange, name }:Props) => {
+export const ItemRadio = ({ title, handleChange, name }:Props) => {
   return (
     <ItemCustom title={title} >
         <label className="switch">
@@ -15,5 +15,3 @@ const ItemRadio = ({ title, handleChange, name }:Props) => {
     </ItemCustom>
   )
 }
-
-export default ItemRadio

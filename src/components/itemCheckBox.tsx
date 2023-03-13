@@ -2,7 +2,7 @@ interface PropsButtonsCheckBox {
     handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     checkboxes: string[]
 }
- const ItemCheckBox = ({ checkboxes, handleChange }: PropsButtonsCheckBox) => {
+export const ItemCheckBox = ({ checkboxes, handleChange }: PropsButtonsCheckBox) => {
     return (
         <div className="Item-opt">
             <h4 className="title-opt">Buttons to controls</h4>
@@ -31,4 +31,3 @@ export const CheckBoxCtrl = ({ handleChange, id }: PropsCheckBoxCtrl) => {
         </div>
     )
 }
-export default ItemCheckBox
