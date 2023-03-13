@@ -1,6 +1,9 @@
 import { checkboxes, radios } from "./assets/data";
-import { PlayerLottie, ItemCheckBox, ItemCustom } from "./components"
-import {ItemRadio} from './components/ItemRadio'
+import ItemRadio from './components/ItemRadio'
+import ItemCustom from './components/ItemCustom'
+import ItemCheckBox from './components/ItemCheckBox'
+import PlayerLottie from './components/PlayerLottie'
+
 import { useActionPlayer } from "./hook/useActionPlayer";
 
 

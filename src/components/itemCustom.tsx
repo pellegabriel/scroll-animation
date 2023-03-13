@@ -3,7 +3,7 @@ interface Props {
     title: string;
 }
 
-export const ItemCustom = ({ children, title }: Props) => {
+ const ItemCustom = ({ children, title }: Props) => {
     return (
         <div className="Item-opt">
             <h4 className="title-opt">{title}</h4>
@@ -13,3 +13,4 @@ export const ItemCustom = ({ children, title }: Props) => {
         </div>
     )
 }
+export default ItemCustom

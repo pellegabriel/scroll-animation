@@ -7,7 +7,7 @@ interface Props {
     controlsDark: boolean;
 }
 
-export const PlayerLottie = ({ buttonsControl, controlsDark, playerRef, showControls }: Props) => {
+ const PlayerLottie = ({ buttonsControl, controlsDark, playerRef, showControls }: Props) => {
     return (
         <div className="container-player">
             <Player
@@ -24,3 +24,4 @@ export const PlayerLottie = ({ buttonsControl, controlsDark, playerRef, showCont
         </div>
     )
 }
+export default PlayerLottie
