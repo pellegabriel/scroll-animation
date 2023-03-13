@@ -1,6 +1,5 @@
 import { checkboxes, radios } from "./assets/data";
 import { PlayerLottie, ItemCheckBox, ItemCustom, ItemRadio } from "./components"
-import { PlayerLottie2 } from "./components/PlayerLottie2";
 import { useActionPlayer } from "./hook/useActionPlayer";
 
 
@@ -45,7 +44,6 @@ const App = () => {
         <ItemCheckBox handleChange={handleChange} checkboxes={checkboxes} />
 
       </div>
-      <PlayerLottie2 {...rest} />
 
     </div>
   )
